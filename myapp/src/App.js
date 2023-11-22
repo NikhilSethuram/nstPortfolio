@@ -5,7 +5,6 @@ import profilePic from "./images/profile-pic.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { GeistProvider, CssBaseline, Page } from "@geist-ui/react";
 import { SiSpringboot, SiScikitlearn, SiFlask } from "react-icons/si";
-import { LuGithub } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
 
 import {
@@ -132,11 +131,11 @@ function App() {
                   enrollbadge.com{" "}
                 </a>
               </p>
-              <img
+              {/* <img
                 src="/logo-black.png"
-                alt="Description of the image"
+                alt="Description of the "
                 className="enroll-badge-image"
-              />
+              /> */}
             </div>
           </div>
           <div className="p2">
@@ -170,6 +169,7 @@ function App() {
               </p>
               <div class="embed-responsive embed-responsive-21by9">
                 <iframe
+                  title="Video Player 1"
                   class="embed-responsive-item custom-iframe-style"
                   src="https://www.youtube.com/embed/q-0LCDVIjOg?si=Iq9iBn12jdM2V257"
                   allowfullscreen
@@ -211,6 +211,7 @@ function App() {
               </p>
               <div class="embed-responsive embed-responsive-21by9">
                 <iframe
+                  title="Video Player 2"
                   class="embed-responsive-item custom-iframe-style2"
                   src="https://www.youtube.com/embed/u_Ur5FzUwIs?si=UPcOBsco402yuFAU"
                   allowfullscreen
