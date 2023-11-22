@@ -1,4 +1,10 @@
-
+html, body {
+  background-color: linear-gradient(to right, #000000, #00182f) !important;
+  color: #dbdbdb !important; /* Set the text color to a suitable color */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 
 .navbar.navbar-expand-lg {
   background: linear-gradient(to right,#000000, #00182f);/* Set the background to transparent */
@@ -30,8 +36,8 @@
 
 .ProfilePicContainer {
   margin-left: auto; 
-   padding: 5cm;
-  padding-bottom: 10cm;
+   padding: 2cm;
+  padding-bottom: 5cm;
 } 
 
  .ProfilePic {
@@ -54,11 +60,34 @@
   flex-direction: column; /* Align items vertically */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-  padding-bottom: 2cm;
   background: linear-gradient(to right, #000000, #00182f);
+  padding-top: 2cm; /* Adjust as needed */
+ 
   color: #dbdbdb; /* text color */
 }
 
 .TechStackText {
 }
 
+/* .icons-container{
+  background: linear-gradient(to right, #000000, #00182f);
+  color:#dbdbdb ;
+  padding-top: 1cm;
+
+} */
+
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #00182f);
+  color:#dbdbdb ;
+  padding-top: 0.5cm;
+}
+
+/* Add additional styling for individual icons as needed */
+.icons-container i {
+  margin: 10px;
+}
