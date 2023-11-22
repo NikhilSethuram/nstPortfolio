@@ -32,14 +32,23 @@ html, body {
   justify-content: center;
   background: linear-gradient(to right,#000000, #00182f);
   color: #dbdbdb; /* text color */
+
 }
 
-.ProfilePicContainer {
+/* .ProfilePicContainer {
   margin-left: auto; 
    padding: 2cm;
   padding-bottom: 5cm;
-} 
+}  */
 
+.ProfilePicContainer {
+  margin-left: auto; 
+  padding: 2cm;
+  display: flex;
+  padding-bottom: 5cm;
+  flex-direction: column;
+  align-items: center;
+}
  .ProfilePic {
   width: 400px;
   border-radius: 50%; 
@@ -50,7 +59,7 @@ html, body {
   padding-top: 2cm;
   padding-left: 0.5cm;
   padding-bottom: 0.5cm;
-  width: 1000px;
+  width: 750px;
 }
 
 
@@ -91,3 +100,89 @@ html, body {
 .icons-container i {
   margin: 10px;
 }
+
+.btn{
+  margin-top: 1.5cm;
+  padding: 0.5rem,1rem;
+}
+
+.Projects{
+  background: linear-gradient(to right, #000000, #00182f);
+  color:#dbdbdb ;
+  padding: 2cm;
+  padding-top: 5cm;
+}
+
+.ProjectTitle{
+  text-decoration: underline;
+}
+
+.p1{
+  margin-top: 2cm;
+}
+
+.p2,.p3{
+  margin-top: 2cm;
+}
+
+.enroll-badge-content {
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.enroll-badge-content img {
+  margin-left: 150px; /* Adjust the margin as needed */
+  margin-top: 10px;
+  height: auto;
+  max-width: 270px;
+}
+
+.bucky-courses-content,.dragon-learn-content {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  align-items: flex-start; /* Align content at the top */
+}
+
+.content-container {
+  flex: 1; /* Take remaining space */
+  padding-left: 2cm; /* Adjust spacing as needed */
+}
+
+.custom-iframe-style {
+  width: 125%;
+  height: 250px; 
+  border: none; 
+  padding-left: 2cm;
+}
+.custom-iframe-style2 {
+  width: 125%;
+  height: 250px; 
+  border: none; 
+  padding-left: 2cm;
+}
+
+
+
+
+.contact-me {
+  background: linear-gradient(to right, #000000, #00182f);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2.2cm;
+  padding: 2cm;
+  flex-direction: column; /* add this line to change direction */
+}
+
+.contact-icons-container {
+  margin-left: 40px;
+ 
+}
+
+.contact-text-container {
+  margin-top: 10px; /* add some margin to separate the text from icons */
+  padding-left: 1cm;
+}
+
