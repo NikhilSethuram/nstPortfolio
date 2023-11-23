@@ -57,7 +57,10 @@ function App() {
           <div className="ProfilePicContainer">
             <img src={profilePic} alt="Profile Pic" className="ProfilePic" />
             <div className="Intro-button">
-              <a href="/ResumeOfficial.pdf" download="ResumeOfficial.pdf">
+              <a
+                href="https://NikhilSethuram.github.io/nstPortfolio/ResumeOfficial.pdf"
+                download="ResumeOfficial.pdf"
+              >
                 <button type="button" className="btn btn-outline-light">
                   Download Resume
                 </button>
